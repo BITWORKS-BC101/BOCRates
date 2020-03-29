@@ -3,11 +3,11 @@ struct EXCHANGE_RATE
 	char CurrencyCode[4];
 	char CurrencyName[32];
 	char PublishTime[20];
-	double BuyingRate = 0;;
+	double BuyingRate = 0;
 	double CashBuyingRate = 0;
-	double SellingRate;
-	double CashSellingRate;
-	double MiddleRate;
+	double SellingRate = 0;
+	double CashSellingRate =0;
+	double MiddleRate = 0;
 };
 
 typedef struct EXCHANGE_RATE ExchangeRate;
